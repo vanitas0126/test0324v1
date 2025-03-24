@@ -5,90 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    body {
-      margin: 0;
+    body{
+      margin : 0;
       height: 2000px;
-      font-family: Arial, sans-serif;
-      background-color: #f0f4f8;
-      color: #333;
     }
 
-    section {
+    section{
       width: 100%;
       height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0 20px;
     }
 
-    .wrapper {
+    .wrapper{
       padding-top: 88px;
       max-width: 1200px;
       margin: auto;
     }
 
-    h1 {
-      color: #4A90E2;
+    h1{
+      color: skyblue;
       font-size: 48px;
-      margin-bottom: 10px;
     }
 
-    h2 {
+    h2{
       font-size: 32px;
-      margin-bottom: 10px;
     }
 
-    h3 {
-      font-size: 20px;
+    h3{
+      font-size: 24px;
       font-weight: 300;
-      line-height: 1.6;
-      max-width: 800px;
-      text-align: justify;
     }
 
-    .btns {
+    .btns{
       position: fixed;
       top: 0;
       width: 100%;
       z-index: 10;
-      background-color: #333;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    .btns .container {
+    .btns .container{
       position: relative;
       max-width: 900px;
       padding: 20px;
+      background-color: #333;
       margin: auto;
-      display: flex;
-      justify-content: center;
     } 
 
-    .btns_menu {
+    .btns_menu{
       display: flex;
-      gap: 10px;
+      justify-content: center;
     }
 
-    .btn {
+    .btns_menu .btn{
       font-size: 16px;
       font-weight: 600;
-      color: #fff;
+      color: #193a40;
       width: 150px;
       height: 40px;
       text-align: center;
-      background-color: #4A90E2;
-      border-radius: 8px;
+      background-color: #9ad2d9;
+      margin: 4px;
+      border-radius: 6px;
       cursor: pointer;
       display: flex;
       justify-content: center;
       align-items: center;
-      transition: background-color 0.3s, transform 0.3s;
     }
 
-    .btn:hover {
-      background-color: #357ABD;
-      transform: scale(1.05);
+    .btns_menu .btn:hover{
+      background-color: white;
+      border: 3px solid #fff;
+      transition: all 0.3s;
     }
 
     button {
@@ -97,6 +83,7 @@
       border: none;
       outline: none;
     }
+
 
 
   </style>
